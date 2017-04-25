@@ -9,7 +9,7 @@ The official wiki page for this library is this one: http://openfoamwiki.net/ind
 
 The original source code from the SVN repository mentioned above is designed to work with "OpenFOAM-extend" 1.6-ext (now known as foam-extend) and is also present in the branch `fe30` at this git repository, which is known to also build with foam-extend 3.0 and 3.1.
 
-This git repository aims to unofficially extend the ability to build this library with the more recent versions of foam-extend 4.0 and newer. The main objective is to adapt the source code and tutorials to each of the currently unsupported foam-extend versions, such as 4.0. Therefore, please keep in mind that the respective tutorials are not fully tested with each foam-extend version.
+This git repository aims to unofficially extend the ability to build this library with the more recent versions of foam-extend 4.0 and newer. The main objective is to adapt the source code and tutorials to each of the currently unsupported foam-extend versions, such as 3.2 and 4.0. Therefore, please keep in mind that the respective tutorials are not fully tested with each foam-extend version.
 
 
 Documentation
@@ -59,6 +59,26 @@ For getting and building from zip:
 ```
 wget "https://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend/archive/fe30.zip" -O OSIG-TurboMachinery-turboPerformance-foam-extend.zip
 cd OSIG-TurboMachinery-turboPerformance-foam-extend-fe30
+chmod +x Allw* example/All*
+wmake libso
+```
+
+
+foam-extend 3.2
+---------------
+
+For getting and building from git:
+```
+git clone git://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend.git
+cd OSIG-TurboMachinery-turboPerformance-foam-extend
+git checkout fe32
+wmake libso
+```
+
+For getting and building from zip:
+```
+wget "https://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend/archive/fe32.zip" -O OSIG-TurboMachinery-turboPerformance-foam-extend.zip
+cd OSIG-TurboMachinery-turboPerformance-foam-extend-fe32
 chmod +x Allw* example/All*
 wmake libso
 ```
