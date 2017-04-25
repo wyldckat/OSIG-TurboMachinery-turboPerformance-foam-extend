@@ -23,10 +23,7 @@ In the folder `tutorials` you should find some examples on how to use this libra
 Disclaimer and License
 ======================
 
-Original files came from here:
-
-  * svn://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder_1.6/OSIG/TurboMachinery/src/turboPerformance
-  * svn://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder_1.6/OSIG/TurboMachinery/tutorials
+Original files came from here: svn://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder_1.6/OSIG/TurboMachinery/src/turboPerformance
 
 This is bound to the same license as foam-extend, namely GNU Public License v3. Quoting from foam-extend's license statement:
 
