@@ -1,5 +1,5 @@
 OSIG-TurboMachinery-turboPerformance-foam-extend
-===================================================
+================================================
 
 This git repository was created Bruno Santos (wyldckat@github), based on the original files that are available here: svn://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder_1.6/OSIG/TurboMachinery
 
