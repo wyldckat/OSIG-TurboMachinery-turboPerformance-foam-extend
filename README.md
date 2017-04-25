@@ -64,8 +64,8 @@ wmake libso
 ```
 
 
-foam-extend 3.2
----------------
+foam-extend 3.2 and 4.0
+-----------------------
 
 For getting and building from git:
 ```
@@ -79,26 +79,6 @@ For getting and building from zip:
 ```
 wget "https://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend/archive/fe32.zip" -O OSIG-TurboMachinery-turboPerformance-foam-extend.zip
 cd OSIG-TurboMachinery-turboPerformance-foam-extend-fe32
-chmod +x Allw* example/All*
-wmake libso
-```
-
-
-foam-extend 4.0
----------------
-
-For getting and building from git:
-```
-git clone git://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend.git
-cd OSIG-TurboMachinery-turboPerformance-foam-extend
-git checkout fe40
-wmake libso
-```
-
-For getting and building from zip:
-```
-wget "https://github.com/wyldckat/OSIG-TurboMachinery-turboPerformance-foam-extend/archive/fe40.zip" -O OSIG-TurboMachinery-turboPerformance-foam-extend.zip
-cd OSIG-TurboMachinery-turboPerformance-foam-extend-fe40
 chmod +x Allw* example/All*
 wmake libso
 ```
