@@ -28,7 +28,7 @@ License
 #include "volFields.H"
 #include "surfaceFields.H"    // added
 #include "dictionary.H"
-#include "Time.H"
+#include "foamTime.H"
 #include "incompressible/singlePhaseTransportModel/singlePhaseTransportModel.H"
 #include "basicThermo.H"
 
